@@ -8,4 +8,4 @@ ld_reference_files	data	EXCLUDED	obtain from original reference provider	large a
 individual_level_data	data	EXCLUDED	not redistributed	not generated or controlled-access
 credentials	secrets	EXCLUDED	never publish	security
 absolute_local_paths	metadata	EXCLUDED	rewrite as relative paths	local reproducibility
-repository_url	metadata	SUBMISSION_BLOCKER	add DOI/URL and release tag	currently unresolved
+repository_identifiers	metadata	INCLUDED	record GitHub URL, Zenodo DOI and release label	GitHub public repository plus Zenodo 10.5281/zenodo.22689138
