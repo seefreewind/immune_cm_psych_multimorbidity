@@ -1,6 +1,6 @@
 # immune_cm_psych_multimorbidity
 
-Private staging repository for the Communications Biology release candidate `v1.0-submission-rc1`.
+Public staging repository for the Communications Biology release candidate `v1.0-submission-rc1`.
 
 The reproducible release is under [`release/communications_biology_code/`](release/communications_biology_code/). It contains figure-generation Python scripts, derived figure-source data, frozen manuscript tables, metadata, environment documentation, validation commands and QC audits.
 
