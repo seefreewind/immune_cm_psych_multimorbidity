@@ -1,0 +1,64 @@
+claim_id	section	statistic	draft_value	source_file	source_value	match
+ARCH-01	Results	D2 CFI	0.980	results/genomic_sem/phase2d/model_comparison.tsv	0.980	TRUE
+ARCH-02	Results	D2 SRMR	0.042	results/genomic_sem/phase2d/model_comparison.tsv	0.042	TRUE
+LAVA-01	Results	predefined pairs	27	results/local_rg/lava/atlas_27pair_qc/pair_signal_summary.tsv	27	TRUE
+LAVA-02	Results	finite bivariate tests	13890	results/local_rg/lava/atlas_27pair_qc/pair_signal_summary.tsv	13890	TRUE
+LAVA-03	Results	atlas FDR05 blocks	93	results/local_rg/lava/atlas_27pair_qc/pair_signal_summary.tsv	93	TRUE
+LAVA-04	Results	Bonferroni blocks	13	results/local_rg/lava/atlas_27pair_qc/pair_signal_summary.tsv	13	TRUE
+LAVA-05	Results	pair FDR05 blocks	154	results/local_rg/lava/atlas_27pair_qc/pair_signal_summary.tsv	154	TRUE
+LAVA-06	Results	atlas FDR10 blocks	170	results/local_rg/lava/atlas_27pair_qc/pair_signal_summary.tsv	170	TRUE
+AXIS-01	Results	CM-Internalizing tests	6568	results/local_rg/lava/atlas_27pair_qc/domain_pair_signal_summary.tsv	6568	TRUE
+AXIS-02	Results	CM-Internalizing FDR05	52	results/local_rg/lava/atlas_27pair_qc/domain_pair_signal_summary.tsv	52	TRUE
+AXIS-03	Results	Immune-Internalizing tests	4567	results/local_rg/lava/atlas_27pair_qc/domain_pair_signal_summary.tsv	4567	TRUE
+AXIS-04	Results	Immune-Internalizing FDR05	18	results/local_rg/lava/atlas_27pair_qc/domain_pair_signal_summary.tsv	18	TRUE
+AXIS-05	Results	Immune-CM tests	2755	results/local_rg/lava/atlas_27pair_qc/domain_pair_signal_summary.tsv	2755	TRUE
+AXIS-06	Results	Immune-CM FDR05	23	results/local_rg/lava/atlas_27pair_qc/domain_pair_signal_summary.tsv	23	TRUE
+HOT-01	Results	pair-hotspots	81	results/phase3b0/hotspots/pair_hotspots.tsv	81	TRUE
+HOT-02	Results	cross-pair hotspots	59	results/phase3b0/hotspots/cross_pair_hotspots.tsv	59	TRUE
+HOT-03	Results	recurrent hotspots	12	results/phase3b0/hotspots/cross_pair_hotspots.tsv	12	TRUE
+HOT-04	Results	multi-axis hotspots	4	results/phase3b0/hotspots/cross_pair_hotspots.tsv	4	TRUE
+HOT-05	Results	pan-domain hotspots	0	results/phase3b0/hotspots/cross_pair_hotspots.tsv	0	TRUE
+MHC-01	Results	MHC blocks	25	results/phase3b0/phase3b0_summary_metrics.tsv	25	TRUE
+MHC-02	Results	MHC pair-hotspots	15	results/phase3b0/phase3b0_summary_metrics.tsv	15	TRUE
+MDD-01	Results	noUKBB tests	3896	results/phase3b0/sensitivity/mdd_noUKBB_sensitivity_metrics.tsv	3896	TRUE
+MDD-02	Results	MDD blocks compared	41	results/phase3b0/sensitivity/mdd_noUKBB_sensitivity_metrics.tsv	41	TRUE
+MDD-03	Results	MDD robust	37	results/phase3b0/sensitivity/mdd_noUKBB_sensitivity_metrics.tsv	37	TRUE
+MDD-04	Results	MDD attenuated	0	results/phase3b0/sensitivity/mdd_noUKBB_sensitivity_metrics.tsv	0	TRUE
+MDD-05	Results	MDD reversed	0	results/phase3b0/sensitivity/mdd_noUKBB_sensitivity_metrics.tsv	0	TRUE
+MDD-06	Results	MDD not testable	4	results/phase3b0/sensitivity/mdd_noUKBB_sensitivity_metrics.tsv	4	TRUE
+ABF-01	Results	ABF candidates	15	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	15	TRUE
+ABF-02	Results	ABF strong	4	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	4	TRUE
+ABF-03	Results	ABF suggestive	1	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	1	TRUE
+ABF-04	Results	ABF distinct	8	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	8	TRUE
+ABF-05	Results	ABF weak/inconclusive	2	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	2	TRUE
+FM-01	Results	frozen fine-mapping candidates	5	results/phase3b2r/synthesis/second_ld_candidate_classification.tsv	5	TRUE
+FM-02	Results	second-LD trait/model fits	30	results/phase3b2r/susie/second_ld/second_ld_model_comparison.tsv	30	TRUE
+GL-UC-T2D-01	Results	UC-T2D global rg	-0.0495	results/phase3b0/global_local_architecture.tsv	-0.0495	TRUE
+GL-UC-T2D-02	Results	UC-T2D strongest local rho	-0.7459	results/phase3b0/global_local_architecture.tsv	-0.7459	TRUE
+GL-PsA-PTSD-01	Results	PsA-PTSD global rg	0.0439	results/phase3b0/global_local_architecture.tsv	0.0439	TRUE
+GL-PsA-PTSD-02	Results	PsA-PTSD strongest local rho	0.7295	results/phase3b0/global_local_architecture.tsv	0.7295	TRUE
+GL-UC-T2D-03	Results	UC-T2D consolidated pair-hotspots	3	results/phase3b0/hotspots/pair_hotspots.tsv	3	TRUE
+GL-PsA-PTSD-03	Results	PsA-PTSD consolidated pair-hotspots	4	results/phase3b0/hotspots/pair_hotspots.tsv	4	TRUE
+ABF-PH3B0_PH003-PP4	Results	PH3B0_PH003 ABF PP4	0.993	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	0.993	TRUE
+ABF-PH3B0_PH028-PP4	Results	PH3B0_PH028 ABF PP4	0.974	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	0.974	TRUE
+ABF-PH3B0_PH052-PP4	Results	PH3B0_PH052 ABF PP4	0.929	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	0.929	TRUE
+ABF-PH3B0_PH002-PP4	Results	PH3B0_PH002 ABF PP4	0.841	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	0.841	TRUE
+N-CD-case_N	Methods	CD case_N	12194	metadata/local_rg/lava_input_manifest.tsv	12194	TRUE
+N-CD-control_N	Methods	CD control_N	28072	metadata/local_rg/lava_input_manifest.tsv	28072	TRUE
+N-UC-case_N	Methods	UC case_N	12366	metadata/local_rg/lava_input_manifest.tsv	12366	TRUE
+N-UC-control_N	Methods	UC control_N	33609	metadata/local_rg/lava_input_manifest.tsv	33609	TRUE
+N-PsA-case_N	Methods	PsA case_N	5065	metadata/local_rg/lava_input_manifest.tsv	5065	TRUE
+N-PsA-control_N	Methods	PsA control_N	21286	metadata/local_rg/lava_input_manifest.tsv	21286	TRUE
+N-T2D-case_N	Methods	T2D case_N	80154	metadata/local_rg/lava_input_manifest.tsv	80154	TRUE
+N-T2D-control_N	Methods	T2D control_N	853816	metadata/local_rg/lava_input_manifest.tsv	853816	TRUE
+N-CAD-case_N	Methods	CAD case_N	181523	metadata/local_rg/lava_input_manifest.tsv	181523	TRUE
+N-CAD-control_N	Methods	CAD control_N	984167	metadata/local_rg/lava_input_manifest.tsv	984167	TRUE
+N-MDD-case_N	Methods	MDD case_N	412305	metadata/local_rg/lava_input_manifest.tsv	412305	TRUE
+N-MDD-control_N	Methods	MDD control_N	1588397	metadata/local_rg/lava_input_manifest.tsv	1588397	TRUE
+N-Anxiety-case_N	Methods	Anxiety case_N	122083	metadata/local_rg/lava_input_manifest.tsv	122083	TRUE
+N-Anxiety-control_N	Methods	Anxiety control_N	729602	metadata/local_rg/lava_input_manifest.tsv	729602	TRUE
+N-PTSD-case_N	Methods	PTSD case_N	137136	metadata/local_rg/lava_input_manifest.tsv	137136	TRUE
+N-PTSD-control_N	Methods	PTSD control_N	1085746	metadata/local_rg/lava_input_manifest.tsv	1085746	TRUE
+THRESH-01	Methods	local-h2 eligibility P threshold	0.05	ANALYSIS_LOCK.md	0.05	TRUE
+THRESH-02	Methods	atlas BH-FDR threshold	0.05	ANALYSIS_LOCK.md	0.05	TRUE
+THRESH-03	Methods	SuSiE coverage	0.95	ANALYSIS_LOCK.md	0.95	TRUE

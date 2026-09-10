@@ -1,0 +1,19 @@
+figure	panel	statistic	display_value	source_file	source_value	match
+Figure1	A	primary traits	9.0	MANUSCRIPT_STATISTICAL_FREEZE.md	9	TRUE
+Figure1	B	D2 CFI	0.98	results/genomic_sem/phase2d/model_comparison.tsv	0.980	TRUE
+Figure1	B	D2 SRMR	0.042	results/genomic_sem/phase2d/model_comparison.tsv	0.042	TRUE
+Figure2	A	consolidated pair-hotspots	81.0	results/phase3b0/hotspots/pair_hotspots.tsv	81 rows	TRUE
+Figure2	B	cross-domain pairs	27.0	results/local_rg/lava/atlas_27pair_qc/pair_signal_summary.tsv	27 rows	TRUE
+Figure3	A	cross-domain pairs	27.0	results/phase3b0/global_local_architecture.tsv	27 rows	TRUE
+Figure4	A	cross-pair hotspots	59.0	results/phase3b0/hotspots/cross_pair_hotspots.tsv	59 rows	TRUE
+Figure4	B	recurrent hotspots	12.0	results/phase3b0/hotspots/cross_pair_hotspots.tsv	sum(recurrent_hotspot)	TRUE
+Figure4	B	multi-axis hotspots	4.0	results/phase3b0/hotspots/cross_pair_hotspots.tsv	sum(multi_axis_hotspot)	TRUE
+Figure4	B	pan-domain hotspots	0.0	results/phase3b0/hotspots/cross_pair_hotspots.tsv	sum(pan_domain_hotspot)	TRUE
+Figure5	A	primary MDD blocks	41.0	results/phase3b0/sensitivity/mdd_noUKBB_hotspot_concordance.tsv	41 rows	TRUE
+Figure5	A	robust MDD blocks	37.0	results/phase3b0/sensitivity/mdd_noUKBB_hotspot_concordance.tsv	sum(MDD_ROBUST)	TRUE
+Figure5	A	not-testable MDD blocks	4.0	results/phase3b0/sensitivity/mdd_noUKBB_hotspot_concordance.tsv	sum(non-robust)	TRUE
+Figure5	B	ABF candidates	15.0	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	15 rows	TRUE
+Figure5	B	strong ABF candidates	4.0	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	sum(STRONG_SHARED_SIGNAL)	TRUE
+Figure5	B	suggestive ABF candidates	1.0	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	sum(SUGGESTIVE_SHARED_SIGNAL)	TRUE
+Figure5	B	distinct-signal candidates	8.0	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	sum(DISTINCT_SIGNAL_SUPPORTED)	TRUE
+Figure5	B	weak/inconclusive candidates	2.0	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	sum(WEAK_OR_INCONCLUSIVE)	TRUE

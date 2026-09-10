@@ -1,0 +1,7 @@
+artifact	source	description	format	redistribution_status	release_status	notes
+frozen_tables	manuscript/tables	Canonical derived manuscript tables	TSV	allowed_as_derived_outputs	INCLUDED	No raw participant-level data.
+figure_source_data	figures/manuscript/data	Machine-readable data used by displayed figures	TSV	allowed_as_derived_outputs	INCLUDED	Project identifiers may remain in Supplementary Data.
+figure_scripts	figures/manuscript/scripts	Descriptive figure-generation entry points	Python	project_code	SAFE_COPY_REQUIRED	Requires staged relative paths and excluded raw inputs.
+qc_audits	manuscript/qc and figures/manuscript/qc	Number, panel and source audits	TSV	allowed_as_derived_outputs	INCLUDED	Audit artifacts only.
+raw_gwas	original providers	Original GWAS summary statistics	provider-specific	provider_terms	EXCLUDED	Obtain from cited sources.
+ld_references	original providers	LAVA and UK Biobank-derived LD references	provider-specific	provider_terms	EXCLUDED	Large/source-specific files.

@@ -1,0 +1,19 @@
+panel	unique_claim	n_definition	center_and_spread	test_and_correction	labels_and_legend	collision_check	pass
+Figure1A	Frozen workflow	9 primary traits and locked analysis steps	No spread; schematic	No test or correction	Workflow labels and QC note	Pass	TRUE
+Figure1B	D2 architecture	Frozen standardized loadings and domain correlation	No spread; frozen point estimates	No new test or correction	Trait loading labels; no collision	Pass	TRUE
+Figure1C	Locked NO-GO decisions	Two frozen decision statuses	Not applicable	Not applicable	NO-GO labels clear	Pass	TRUE
+Figure2A	81 pair-hotspots	One point per consolidated pair-hotspot	No spread; one displayed lead estimate	BH-FDR inherited from frozen table	Pair labels, sign key, MHC inset	Pass	TRUE
+Figure2B	Global rg and local count	27 predefined trait pairs	No spread; frozen rg and counts	No new test or correction	Direct pair labels	Pass	TRUE
+Figure3A	Global-local relationship	27 predefined trait pairs	No spread; frozen rg and counts	No new test or correction	Four direct pair labels	Pass	TRUE
+Figure3B	Classification counts	27 predefined trait pairs	No spread; category counts	Frozen classification only	Category labels and values	Pass	TRUE
+Figure4A	Cross-pair hotspot support	59 hotspots x 27 predefined pairs	No spread; binary support display	No new test or correction	Rotated pair labels; fixed genomic order	Pass	TRUE
+Figure4B	Hotspot recurrence	59 cross-pair hotspots	No spread; support-pair counts	No new test or correction	Recurrence note clear	Pass	TRUE
+Figure5A	MDD noUKBB concordance	41 primary MDD blocks	No spread; paired rho display	Frozen robustness classification	Legend and identity line clear	Pass	TRUE
+Figure5B	ABF screening	15 frozen candidates	No spread; PP3/PP4 display	Frozen ABF evidence classes	Candidate labels and PP key clear	Pass	TRUE
+Supplementary_S1	LDSC rg matrix	9 traits	No spread; matrix entries	Frozen LDSC output	Rotated trait labels clear	Pass	TRUE
+Supplementary_S2	SEM diagnostics	Frozen model comparison rows	No spread; CFI/SRMR points	No refit	D2 highlighted once	Pass	TRUE
+Supplementary_S3	93 LAVA blocks	93 significant LAVA blocks	No spread; block-level display	Atlas-FDR inherited	Note distinguishes blocks from loci	Pass	TRUE
+Supplementary_S4	MHC summary	Blocks and pair-hotspots	No spread; count aggregation	MHC flag inherited	Legend clear	Pass	TRUE
+Supplementary_S5	MDD concordance	41 primary MDD blocks	No spread; paired rho display	Frozen robustness class	Legend and identity line clear	Pass	TRUE
+Supplementary_S6	ABF posterior summary	15 frozen candidates	No spread; PP3/PP4 points	Frozen display thresholds	Class legend clear	Pass	TRUE
+Supplementary_S7	LD QC provenance	5 frozen candidates	No spread; negative eigenvalue counts	QC provenance only	Reference legend and note clear	Pass	TRUE

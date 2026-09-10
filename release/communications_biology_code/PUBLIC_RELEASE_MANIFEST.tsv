@@ -1,0 +1,11 @@
+item	type	status	public_action	excluded_reason
+figure_scripts	code	SAFE_COPY_REQUIRED	copy relative-path figure scripts	no restricted inputs embedded
+figure_source_data	data	INCLUDED	deposit figure-source TSV files in persistent repository	derived display inputs only
+frozen_derived_tables	data	INCLUDED	deposit canonical manuscript TSV tables in persistent repository	project raw and restricted files excluded
+figure_qc	qc	INCLUDED	deposit number/source/panel audit TSV files	derived QC only
+raw_gwas_summary_statistics	data	EXCLUDED	obtain from original providers	third-party terms and file size
+ld_reference_files	data	EXCLUDED	obtain from original reference provider	large and source-specific
+individual_level_data	data	EXCLUDED	not redistributed	not generated or controlled-access
+credentials	secrets	EXCLUDED	never publish	security
+absolute_local_paths	metadata	EXCLUDED	rewrite as relative paths	local reproducibility
+repository_url	metadata	SUBMISSION_BLOCKER	add DOI/URL and release tag	currently unresolved

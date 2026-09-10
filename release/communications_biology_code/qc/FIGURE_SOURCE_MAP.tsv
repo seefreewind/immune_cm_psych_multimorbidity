@@ -1,0 +1,17 @@
+figure_panel	source_table	source_file	filter_or_transformation	plotting_script
+Figure1A	frozen workflow	MANUSCRIPT_EVIDENCE_HIERARCHY.md; MANUSCRIPT_STATISTICAL_FREEZE.md	none; schematic only	make_figure1.py
+Figure1B	D2 architecture	results/genomic_sem/phase2d/D2_CD_UC_PsA_observed_parameters.tsv	filter D2 loadings; display frozen STD_All	make_figure1.py
+Figure1C	general-factor decision	FINAL_SEM_GO_NOGO.md	display locked NO-GO status	make_figure1.py
+Figure2A	81 pair-hotspots	results/phase3b0/hotspots/pair_hotspots.tsv	sort by pair; chromosome offsets; sign; -log10(min atlas FDR)	make_figure2.py
+Figure2B	global-local context	results/phase3b0/global_local_architecture.tsv	display frozen global rg and pair-hotspot count	make_figure2.py
+Figure3A-B	global-local classification	results/phase3b0/global_local_architecture.tsv	plot and count frozen classification categories	make_figure3.py
+Figure4A-B	59 cross-pair hotspots	results/phase3b0/hotspots/cross_pair_hotspots.tsv; results/phase3b0/hotspots/pair_hotspots.tsv	fixed genomic sort; split frozen pairs field; binary display	make_figure4.py
+Figure5A	MDD noUKBB	results/phase3b0/sensitivity/mdd_noUKBB_hotspot_concordance.tsv	display primary and noUKBB rho; frozen class	make_figure5.py
+Figure5B	ABF screening	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	sort by PP4; display PP3 and PP4	make_figure5.py
+Supplementary_S1	LDSC rg matrix	results/ldsc/phase2c_balanced9_rg_matrix.tsv	matrix display only	make_supplementary.py
+Supplementary_S2	SEM diagnostics	results/genomic_sem/phase2d/model_comparison.tsv	display frozen CFI/SRMR	make_supplementary.py
+Supplementary_S3	93 LAVA blocks	results/local_rg/lava/atlas_27pair_qc/significant_loci_atlas_fdr_0.05.tsv	chromosome offsets; -log10(atlas FDR)	make_supplementary.py
+Supplementary_S4	MHC sensitivity	S3 blocks and pair_hotspots.tsv	count aggregation by MHC flag	make_supplementary.py
+Supplementary_S5	MDD concordance	results/phase3b0/sensitivity/mdd_noUKBB_hotspot_concordance.tsv	display frozen concordance classes	make_supplementary.py
+Supplementary_S6	ABF posterior summary	results/phase3b1/coloc/phase3b1_abf_coloc_summary.tsv	display frozen PP3/PP4	make_supplementary.py
+Supplementary_S7	LD QC provenance	results/phase3b2r/ld/original_ld_qc.tsv; results/phase3b2r/ld_second/second_ld_qc.tsv	join by frozen candidate; display negative eigenvalue counts	make_supplementary.py

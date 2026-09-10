@@ -1,0 +1,11 @@
+trait	source	study	accession	URL	ancestry	build	redistribution_allowed	local_file_included	notes
+CD	GWAS Catalog	Inflammatory bowel disease / Crohn's disease	GCST004132	https://www.ebi.ac.uk/gwas/studies/GCST004132	European	GRCh37	provider_terms	FALSE	Original summary statistics are not redistributed.
+UC	GWAS Catalog	Inflammatory bowel disease / ulcerative colitis	GCST004133	https://www.ebi.ac.uk/gwas/studies/GCST004133	European	GRCh37	provider_terms	FALSE	Original summary statistics are not redistributed.
+PsA	GWAS Catalog	Psoriatic arthritis	GCST90243956	https://www.ebi.ac.uk/gwas/studies/GCST90243956	European	GRCh37	provider_terms	FALSE	Primary trait input; source access remains provider-controlled.
+BMI	GWAS Catalog	Body mass index	GCST006900	https://www.ebi.ac.uk/gwas/studies/GCST006900	European	GRCh37	provider_terms	FALSE	Quantitative trait summary statistics are not redistributed.
+T2D	DIAMANTE	Type 2 diabetes	DIAMANTE-EUR	https://diagram-consortium.org/downloads.html	European	GRCh37	provider_terms	FALSE	Access through the original consortium.
+CAD	CARDIoGRAMplusC4D	Coronary artery disease	CARDIoGRAMplusC4D 2022	https://www.cardiogramplusc4d.org/data-downloads/	European	GRCh37	provider_terms	FALSE	Access through the original consortium.
+MDD	Psychiatric Genomics Consortium	Major depressive disorder	PGC MDD2025	https://pgc.unc.edu/for-researchers/download-results/	European	GRCh37	provider_terms	FALSE	Access through the PGC release page.
+Anxiety	Psychiatric Genomics Consortium	Anxiety disorder	PGC anxiety release	https://pgc.unc.edu/for-researchers/download-results/	European	GRCh37	provider_terms	FALSE	Access through the PGC release page.
+PTSD	Psychiatric Genomics Consortium	Post-traumatic stress disorder	PGC PTSD2024	https://pgc.unc.edu/for-researchers/download-results/	European	GRCh37	provider_terms	FALSE	Access through the PGC release page.
+LAVA_LD	LAVA distribution	European LD reference	LAVA UKB v1.1	https://github.com/josefin-werme/LAVA	European	GRCh37	provider_terms	FALSE	Reference files are excluded from the public release.

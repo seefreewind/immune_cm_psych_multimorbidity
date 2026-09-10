@@ -1,0 +1,11 @@
+claim	section	project_evidence	external_literature	claim_type	causal_risk	supported
+D2 is the retained manuscript architecture	Results/Methods	model comparison; CFI 0.980; SRMR 0.042	R03	model-selection	low	TRUE
+Local sharing was detected across all three axes	Results	13,890 tests; 93 atlas-FDR05 blocks	R04; R09	descriptive statistical	low	TRUE
+Weak global correlation can coexist with strong local sharing	Results/Discussion	UC-T2D and PsA-PTSD classifications	R08; R14; R18	architecture	low	TRUE
+There are 12 recurrent and 4 multi-axis hotspots	Results	retained hotspot tables	R04; R18	descriptive statistical	low	TRUE
+No hotspot met the prespecified pan-domain definition	Results/Discussion	cross-pair hotspot table	none required	negative prespecified finding	low	TRUE
+MHC contains concentrated local sharing	Results/Discussion	25 blocks; 15 pair-hotspots	R11; R30	regional context	moderate	TRUE
+MDD noUKBB sensitivity retained most comparable blocks	Results	37/41 robust; 0 attenuated; 0 reversed; 4 unresolved	none required	sensitivity	low	TRUE
+ABF prioritizes regional candidates	Results/Discussion	15 candidates; 4 strong; 1 suggestive	R05	screening	moderate	TRUE
+LD-aware fine-mapping remained unresolved under prespecified LD-QC criteria	Results/Discussion	5 candidates; 30 fits; unresolved	R06; R09	QC boundary	low	TRUE
+The study does not establish mechanism or clinical utility	Discussion/Methods	evidence hierarchy	R40; R41	interpretive boundary	low	TRUE

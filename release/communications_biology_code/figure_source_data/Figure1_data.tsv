@@ -1,0 +1,19 @@
+panel	row_type	item	order	value
+A	workflow	9-trait GWAS	1	
+A	workflow	LDSC	2	
+A	workflow	Genomic SEM model comparison	3	
+A	workflow	D2 selected and locked	4	
+A	workflow	27-pair LAVA atlas	5	
+A	workflow	Hotspot consolidation	6	
+A	workflow	MDD noUKBB sensitivity	7	
+A	workflow	ABF screening	8	
+B	loading	Cardiometabolic -> bmi.ldsc.tsv		0.563805411322837
+B	loading	Cardiometabolic -> type_2_diabetes.ldsc.tsv		0.742317968973239
+B	loading	Cardiometabolic -> cad		0.609599272038769
+B	loading	Internalizing -> major_depressive_disorder.ldsc.tsv		0.998127597816964
+B	loading	Internalizing -> anxiety_disorder.ldsc.tsv		0.835831910426743
+B	loading	Internalizing -> ptsd.ldsc.tsv		0.987476179211028
+B	fit	D2 CFI		0.979594696585236
+B	fit	D2 SRMR		0.0419855729047516
+C	no_go	Higher-order general factor		NO-GO
+C	no_go	IBD latent GWAS		NO-GO

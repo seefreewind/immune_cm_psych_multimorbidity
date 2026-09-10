@@ -1,0 +1,10 @@
+trait	domain	h2_Z	key_global_rg_summary	SEM_role
+Crohn's disease	Immune	10.9013	cross-domain rg range 0.0414 to 0.1472; strongest Crohn's disease - Anxiety disorder (0.1472)	Observed immune trait in D2
+Ulcerative colitis	Immune	9.9163	cross-domain rg range -0.0748 to 0.1274; strongest Ulcerative colitis - Anxiety disorder (0.1274)	Observed immune trait in D2
+Psoriatic arthritis	Immune	5.0778	cross-domain rg range 0.0436 to 0.1644; strongest Psoriatic arthritis - BMI (0.1644)	Observed immune trait in D2
+BMI	Cardiometabolic	33.2806	cross-domain rg range -0.0748 to 0.1948; strongest BMI - PTSD (0.1948)	Indicator of cardiometabolic latent factor
+Type 2 diabetes	Cardiometabolic	20.1571	cross-domain rg range -0.0495 to 0.2494; strongest Type 2 diabetes - PTSD (0.2494)	Indicator of cardiometabolic latent factor
+Coronary artery disease	Cardiometabolic	14.5536	cross-domain rg range 0.0125 to 0.2629; strongest Coronary artery disease - PTSD (0.2629)	Indicator of cardiometabolic latent factor
+Major depressive disorder	Internalizing	28.7050	cross-domain rg range 0.0435 to 0.2519; strongest Coronary artery disease - Major depressive disorder (0.2519)	Indicator of internalizing latent factor
+Anxiety disorder	Internalizing	26.8878	cross-domain rg range 0.0409 to 0.2064; strongest Coronary artery disease - Anxiety disorder (0.2064)	Indicator of internalizing latent factor
+PTSD	Internalizing	23.4678	cross-domain rg range 0.0367 to 0.2629; strongest Coronary artery disease - PTSD (0.2629)	Indicator of internalizing latent factor
