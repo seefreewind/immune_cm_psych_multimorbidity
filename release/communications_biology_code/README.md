@@ -1,6 +1,8 @@
 # Communications Biology public-code release skeleton
 
-This directory is a safe release skeleton for the frozen manuscript package. It contains no raw GWAS summary statistics, individual-level data, LD reference matrices, credentials or absolute local paths. The intended public release should include the final repository DOI, a version tag and the frozen derived tables needed to reproduce the descriptive figures.
+This directory is the safe public release for the frozen manuscript package. It contains no raw GWAS summary statistics, individual-level data, LD reference matrices, credentials or absolute local paths.
+
+Release identifiers: local release label `v1.0-submission-rc1`; public code repository [GitHub](https://github.com/seefreewind/immune_cm_psych_multimorbidity); archived code and derived-data package [Zenodo DOI 10.5281/zenodo.22689138](https://doi.org/10.5281/zenodo.22689138). The Zenodo record is version 1 and contains the deposited release ZIP.
 
 ## Intended structure
 
